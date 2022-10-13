@@ -1,6 +1,6 @@
 <template>
   <div class="induk" style=" background-color: tomato;">
-    
+    <h1>project</h1>
      <form id="atas" @submit.prevent="add">
         <div class="bali">
         <input type="hidden" v-model="form.id">
@@ -53,8 +53,9 @@
     <span><img :src=bali.image alt="" width="100px"></span>
       &#160;</td>
       <td class="btn2">
+        <a href="#atas">
         <button class="aa" @click="edit(bali)"><i class="fas fa-wrench"></i>Edit</button> 
-          <button class="aa" @click="del(bali)"><i class="fas fa-trash-alt"></i>Delete</button>
+          <button class="aa" @click="del(bali)"><i class="fas fa-trash-alt"></i>Delete</button></a>
       </td>
       </tr>
       
