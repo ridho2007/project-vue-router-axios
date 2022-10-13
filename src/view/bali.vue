@@ -1,6 +1,6 @@
 <template>
   <div class="induk" style=" background-color: tomato;">
-    <h1>project</h1>
+   
      <form id="atas" @submit.prevent="add">
         <div class="bali">
         <input type="hidden" v-model="form.id">
